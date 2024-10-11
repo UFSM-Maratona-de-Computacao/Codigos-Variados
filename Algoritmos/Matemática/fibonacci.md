@@ -54,7 +54,7 @@ Note que o Período de Pisano não serve para otimizar o cálculo, pois não exi
 long long pisano(long long m)
 {
     long long a = 0, b = 1, c = a + b;
-    for (int i = 0; i < m * m; i++)
+    for (long long i = 0; i < m * m; i++)
     {
         c = (a + b) % m;
         a = b;
