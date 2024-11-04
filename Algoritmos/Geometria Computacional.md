@@ -426,7 +426,7 @@ float distPointToLine(Point c, Point p1, Point p2) {
 }
 ```
 
-## **(NÃO TESTADO)** Distância Ponto a Segmento de Reta
+##  Distância Ponto a Segmento de Reta
 ```c++
 float distPointToSegment(Point c, Point p1, Point p2) {
    Point pV;
